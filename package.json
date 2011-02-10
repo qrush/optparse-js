@@ -1,8 +1,13 @@
 {
     "name": "optparse",
     "author": "Johan Dahlberg",
-    "description": "Command-line option parser",
+    "summary": "Command-line option parser",
+    "description": "Optparse-js is a command line option parser for Javascript. It's slightly based on Ruby's implementation optparse but with some differences (different languages has different needs) such as custom parsers.",
     "keywords": ["option", "parser", "command-line", "cli", "terminal"],
     "version": "1.0.1",
-    "main": "./lib/optparse"
+    "homepage": "https://github.com/jfd/optparse-js",
+    "main": "./lib/optparse",
+    "directories" : {
+      "lib"  : "./lib"
+    }
 }
